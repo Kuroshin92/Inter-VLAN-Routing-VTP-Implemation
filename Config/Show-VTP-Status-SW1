@@ -1,0 +1,17 @@
+SW1#show vtp status
+VTP Version capable             : 1 to 2
+VTP version running             : 1
+VTP Domain Name                 : Lab6
+VTP Pruning Mode                : Disabled
+VTP Traps Generation            : Disabled
+Device ID                       : 0002.16A0.1D00
+Configuration last modified by 0.0.0.0 at 3-1-93 01:40:24
+
+Feature VLAN : 
+--------------
+VTP Operating Mode                : Client
+Maximum VLANs supported locally   : 255
+Number of existing VLANs          : 9
+Configuration Revision            : 8
+MD5 digest                        : 0xF0 0xA6 0xCC 0xD6 0x67 0x49 0x76 0xAC 
+                                    0xE7 0x3D 0x0F 0x94 0x9B 0x93 0x5F 0xB5 
