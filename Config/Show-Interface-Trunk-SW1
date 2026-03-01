@@ -1,0 +1,20 @@
+SW1#show int trunk
+Port        Mode         Encapsulation  Status        Native vlan
+Fa0/3       on           802.1q         trunking      99
+Fa0/4       on           802.1q         trunking      99
+Fa0/5       on           802.1q         trunking      1
+
+Port        Vlans allowed on trunk
+Fa0/3       1-1005
+Fa0/4       1-1005
+Fa0/5       1-1005
+
+Port        Vlans allowed and active in management domain
+Fa0/3       1,10,20,30,99
+Fa0/4       1,10,20,30,99
+Fa0/5       1,10,20,30,99
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Fa0/3       1,10,20,30,99
+Fa0/4       none
+Fa0/5       1,10,20,30,99
